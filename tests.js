@@ -15,7 +15,11 @@
    * and
    * concat
    */
-   
+
+
+  function isTrue(){
+
+  }
 
   const randomBoolean = Boolean(Math.round(Math.random()))
   const randomNumber = Math.ceil(Math.random() * 100)
