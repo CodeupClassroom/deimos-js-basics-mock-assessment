@@ -17,8 +17,54 @@
    */
    
 
-  const randomBoolean = Boolean(Math.round(Math.random()))
-  const randomNumber = Math.ceil(Math.random() * 100)
+  const randomBoolean = Boolean(Math.round(Math.random()));
+  const randomNumber = Math.ceil(Math.random() * 100);
+
+  function isTrue(value){
+    return value === true;
+  }
+
+  function isFalse(value){
+    return value === false;
+  }
+
+  function not(value){
+    return !value;
+  }
+
+  function addOne(value) {
+    if (isNaN(value)){
+      return NaN;
+    }else if (value === Infinity) {
+      return Infinity;
+    }else {
+      return parseInt(value)+1;
+    }
+  }
+
+  function isEven(value){
+    return value % 2 ===0 && value !==false;
+  }
+
+    function isIdentical(val1, val2){
+      return val1 === val2;
+    }
+
+    function isEqual(val1, val2){
+    return val1 == val2;
+    }
+
+    function or(val1,val2){
+    return val1 || val2;
+    }
+
+    function and(val1,val2){
+    return val1 && val2;
+    }
+
+    function concat(val1, val2){
+      return val1.toString()+val2.toString();
+    }
 
   describe('concat', () => {
     it('should be a defined function', () => {
