@@ -10,7 +10,7 @@
 
 ## Getting Started
 0. Setup your own copy of the code using the instructions above
-1. Read the exercise prompts listed below
+1. Read** the exercise prompts listed below
 2. Define your functions that solve the prompts inside of `solutions.js`.
 3. Use feedback to improve responses
 4. Submit issues and patches to the <a href="https://github.com/ryanorsinger/ten-functions/issues">Ten Functions project</a>
