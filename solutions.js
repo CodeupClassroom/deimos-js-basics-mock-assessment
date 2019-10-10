@@ -1,5 +1,36 @@
 "use strict";
 
+function isTrue(x){
+    return x === true;
+}
+function isFalse(x){
+    return x === false;
+}
+function not(x){
+    return !(x);
+}
+function addOne(x){
+    return (++x);
+}
+function isEven(x){
+    var x = parseFloat(x);
+    return (x % 2) === 0;
+}
+function isIdentical(x, y){
+    return x === y;
+}
+function isEqual(x, y){
+    return x == y;
+}
+function or(x, y){
+    return x || y;
+}
+function and(x, y){
+    return x && y;
+}
+function concat(x, y){
+    return ("" + x + y);
+}
 /**
  * Write your solutions here.
  *
