@@ -54,8 +54,12 @@ function and(x, y) {
     return x && y;
 }
  function concat(x, y) {
+    if (typeof x === "string") {
    var z = x.concat(y);
    return z;
+ } else {
+    return x + "" + y;
+    }
  }
 
 /**
