@@ -1,5 +1,63 @@
 "use strict";
 
+function isTrue(x) {
+    if (x === true) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+function isFalse(x) {
+    if (x === false) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+ function not(x) {
+     return !x;
+ }
+
+function addOne(x) {
+    if (x == Infinity) {
+        return Infinity;
+    } else {
+        var y = parseInt(x);
+        return y + 1;
+    }
+}
+
+function isEven(x) {
+   if (x % 2 === 0) {
+       return true;
+   } else {
+       return false;
+   }
+}
+
+function isIdentical(x, y) {
+    return x === y;
+}
+
+function isEqual(x, y){
+    return x == y;
+}
+
+function or(x, y) {
+    return x || y;
+}
+
+function and(x, y) {
+    return x && y;
+}
+ function concat(x, y) {
+   var z = x.concat(y);
+   return z;
+ }
+
 /**
  * Write your solutions here.
  *
