@@ -20,3 +20,35 @@
  * and
  * concat
  */
+
+//@ Exactly Equal to true
+const isTrue = input => input === true;
+
+//@ is equal to false is both type and value
+const isFalse = input => input === false;
+
+//@ returns the boolean opposite of input
+const not = input => !input;
+
+//@ return input +1
+const addOne = input => Number(input) + 1;
+
+//@ if the input is even
+const isEven = input => input === false ? false : Number(input) % 2 === 0
+
+//@ equal in type and value
+const isIdentical = (a,b) => a === b;
+
+//@ equal only in value NOT type
+const isEqual = (a,b) => a == b ;
+
+//@ a or b
+const or = (a,b) => a || b;
+
+//@ returns the result of &&
+const and = (a,b) => a && b;
+
+//@ concat if numbers or strings
+const concat = (a,b) => a.toString() + b.toString();
+
+
