@@ -20,3 +20,84 @@
  * and
  * concat
  */
+
+
+// 1.
+
+function isTrue(){
+    return true
+}
+
+// 2.
+function isFalse(value){
+
+    return value === false;
+}
+
+
+// 3.
+
+function not(any){
+    return typeof any != "boolean"
+}
+
+// 4.
+
+function addOne(number){
+    return number + 1
+}
+
+// 5.
+
+function isEven(number){
+    if(number % 2 == 0){
+        return true
+    } else {
+        return false
+    }
+}
+
+// 6.
+
+
+
+function isIdentical(x , y){
+    if (x === y){
+        return true
+    } else {
+        return false
+    }
+}
+
+// 7.
+
+function isEqual(x,y){
+    if(x == y){
+        }return true
+    }else{
+        return false
+    }
+}
+
+
+// 8.
+
+function or(x,y) {
+    return x || y
+}
+
+// 9.
+
+function and(x,y){
+    return x && y
+}
+
+// 10.
+
+function concat(x,y){
+    return " x "+ " y "
+}else  {
+    return x + y
+    }
+}
+
