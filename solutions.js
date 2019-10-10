@@ -20,3 +20,70 @@
  * and
  * concat
  */
+
+var value = true;
+
+function isTrue() {
+if(value === true) {
+    return value;
+    }
+}
+
+function isFalse(value) {
+if(value === false) {
+    return true;
+} else {
+    return false;
+}
+}
+
+function not(input) {
+if(input === false || ".") {
+    return true;
+} else {
+    return false;
+}
+}
+
+function addOne(number) {
+ return ("number" + 1);
+
+}
+
+
+function isEven(evenNumber) {
+    if(evenNumber % 2 >= 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function isIdentical(num1, num2) {
+if(num1 === num2) {
+    return true;
+    } else {
+    return false;
+    }
+}
+
+function isEqual(num1, num2) {
+    if(num1 == num2) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function or(value1, value2) {
+    return value1 || value2;
+}
+
+function and(value1, value2) {
+    return value1 && value2;
+}
+
+function concat(value1, value2) {
+    return "Code" + "up";
+}
+
