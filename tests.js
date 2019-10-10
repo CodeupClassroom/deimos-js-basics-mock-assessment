@@ -174,6 +174,15 @@
     it('should return 1 when passed "0"', () => {
       expect(addOne("0")).toBe(1)
     })
+    it('should return NaN when given "banana', () => {
+      expect(addOne("banana")).toEqual(NaN);
+    })
+    it('should return NaN when given true', () => {
+      expect(addOne(true)).toEqual(NaN);
+    })
+    it('should return NaN when given NaN', () => {
+      expect(addOne(NaN)).toEqual(NaN);
+    })
   })
 
   describe('isFalse', () => {
