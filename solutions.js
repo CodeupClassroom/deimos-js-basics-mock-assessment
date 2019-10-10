@@ -20,3 +20,44 @@
  * and
  * concat
  */
+function isTrue(x) {
+    if (x === true) {
+        return true;
+    } else {
+        return false;
+    }
+}
+function isFalse(x) {
+    if (x === false) {
+        return true;
+    } else {
+        return false;
+    }
+}
+function not(x) {
+    return (!x ===true)
+}
+function addOne(x) {
+    return parseFloat(x) + 1;
+}
+function isEven(x) {
+    return parseInt(x) % 2 === 0;
+}
+
+function isIdentical(x, y) {
+    return (x === y);
+}
+function isEqual(x, y) {
+    return (x == y);
+}
+function or(x, y) {
+    return (x || y);
+}
+function and(x,y) {
+    return (x && y);
+}
+function concat(x,y) {
+    var x1 = x.toString();
+    var y1 = y.toString();
+    return (x1 + y1);
+}
